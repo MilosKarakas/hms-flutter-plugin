@@ -28,8 +28,8 @@ public interface Core {
     String DEFAULT_MESSAGE = "HMS Push";
     long DEFAULT_VIBRATE_DURATION = 250L;
     String NOTIFICATION_CHANNEL_ID = "huawei-hms-flutter-push-channel-id";
-    String NOTIFICATION_CHANNEL_NAME = "huawei-hms-flutter-push-channel";
-    String NOTIFICATION_CHANNEL_DESC = "Huawei HMS Push";
+    String NOTIFICATION_CHANNEL_NAME = "Klapp Notification Channel 1";
+    String NOTIFICATION_CHANNEL_DESC = "Klapp Notification Channel";
 
     interface Resource {
         String MIPMAP = "mipmap";
