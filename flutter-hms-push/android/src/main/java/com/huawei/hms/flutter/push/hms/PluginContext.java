@@ -33,6 +33,6 @@ public class PluginContext {
     }
 
     public static Context getContext() {
-        return weakReference != null ? weakReference.get() : null;;
+        return weakReference != null ? weakReference.get() : null;
     }
 }
